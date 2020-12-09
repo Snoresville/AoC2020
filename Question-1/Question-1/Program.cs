@@ -211,6 +211,19 @@ namespace Question_1 {
         static void Main(string[] args) {
             int sum = -1;
 
+            /*
+             for (int i = 0; i < numbers.Count - 1; i++) {
+                for (int j = i + 1; j < numbers.Count; j++) {
+                    if (numbers[i] + numbers[j] == 2020) {
+                        sum = numbers[i] * numbers[j];
+                        break;
+                    }
+                }
+                if (sum != -1) break;
+            } 
+             */
+
+
             for (int i = 0; i < numbers.Count - 2; i++) {
                 for (int j = i + 1; j < numbers.Count - 1; j++) {
                     for (int k = i + 1; k < numbers.Count; k++) {
